@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    
+}
+
+#calculator{
+    height: 600px;
+    width: 315px;
+    background-color: rgb(34, 34, 34);
+    /* padding: px; */
+    border-radius: 20px;
+    border: 4px solid rgb(22, 22, 22);
+}
+
+#calculatorDisplay{
+    width: 100%;
+    height: 30%;
+    background-color: #474646;
+    border-radius:20px ;
+    margin-bottom: 30px;
+    text-align: right;
+    
+    vertical-align: middle;
+}
+#keypad{
+    margin:0px 17px 25px 17px;
+}
+.button{
+    text-align: center;
+    vertical-align: middle;
+    margin: 4px 1px;
+    display: inline-block;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    background-color: rgb(100, 182, 237);
+    cursor: pointer;
+}
+.button-color2{
+
+    background-color: rgb(142, 248, 183) !important;
+
+}
+.button-color3{
+
+    background-color: rgb(53, 53, 53) !important;
+    color: white !important;
+
+
+}
+.button-color4{
+
+    background-color: rgb(182, 197, 245) !important;
+
+}
+
+
+
+#keypad span{
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-top: 15px;
+    
+}
+
+.button:hover{
+    transform: scale(0.96);
+    box-shadow: 0 0 2px 4px rgb(255, 255, 255) ;
+
+}
+.button-color3:hover{
+    box-shadow: 0 0 5px 4px rgb(255, 115, 22) !important;
+}
+
+#calculatorDisplay span{
+    font-size: 4rem;
+    color: white;
+    font-family: sans-serif;
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 10px;
+}
